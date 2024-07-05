@@ -14,11 +14,28 @@ function CountriesList({ cities, isLoading }) {
       />
     );
 
-  const countries = cities.reduce((arr, city) => {
-    if (!arr.map((el) => el.country).includes(city.country))
-      return [...arr, { country: city.country, emoji: city.emoji }];
-    else return arr;
-  }, []);
+  //Time Complexiety is O(n^2)
+  // const countries = cities.reduce((arr, city) => {
+  //   if (!arr.map((el) => el.country).includes(city.country))
+  //     return [...arr, { country: city.country, emoji: city.emoji }];
+  //   else return arr;
+  // }, []);
+
+  const getUniqueCountries = (cities) => {
+    let countryMap = new Map();
+
+    for (const city of cities) {
+      if (!countryMap.has(city.country))
+        countryMap.set(city.country, {
+          country: city.country,
+          emoji: city.emoji,
+        });
+    }
+
+    return Array.from(countryMap.values());
+  };
+
+  const countries = getUniqueCountries(cities);
 
   return (
     <ul className={styles.countryList}>
