@@ -3,8 +3,10 @@ import styles from "./CountryList.module.css";
 import Spinner from "./Spinner";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
+import { useCities } from "../contexts/CitiesContext";
 
-function CountriesList({ cities, isLoading }) {
+function CountriesList() {
+  const { cities, isLoading } = useCities();
   if (isLoading) return <Spinner />;
 
   if (!cities.length)
@@ -14,13 +16,14 @@ function CountriesList({ cities, isLoading }) {
       />
     );
 
-  //Time Complexiety is O(n^2)
+  //Time Complexiety is O(n^2) not very efficient
   // const countries = cities.reduce((arr, city) => {
   //   if (!arr.map((el) => el.country).includes(city.country))
   //     return [...arr, { country: city.country, emoji: city.emoji }];
   //   else return arr;
   // }, []);
 
+  //Time complexiety is O(n) more efficient
   const getUniqueCountries = (cities) => {
     let countryMap = new Map();
 
