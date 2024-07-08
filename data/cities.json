@@ -35,6 +35,18 @@
         "lat": "6.588728599824171",
         "lng": "3.286800384521485"
       }
+    },
+    {
+      "id": "404b",
+      "cityName": "Yermakovskoye",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "notes": "Lovely city.",
+      "date": "2024-07-08T16:29:06.239Z",
+      "position": {
+        "lat": "52.05249047600099",
+        "lng": "91.93359375"
+      }
     }
   ]
 }
