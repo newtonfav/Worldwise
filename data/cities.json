@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,43 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "ae4e",
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "notes": "this is just a test",
+      "date": "2024-07-08T15:07:23.171Z",
+      "position": {
+        "lat": "52.52520370034151",
+        "lng": "13.188228607177734"
+      }
+    },
+    {
+      "id": "e8a2",
+      "cityName": "Lagos",
+      "country": "Nigeria",
+      "emoji": "🇳🇬",
+      "notes": "Great place",
+      "date": "2024-07-08T15:12:23.831Z",
+      "position": {
+        "lat": "6.52051287995805",
+        "lng": "3.3564949035644536"
+      }
+    },
+    {
+      "id": "3d61",
+      "cityName": "Patak",
+      "country": "Hungary",
+      "emoji": "🇭🇺",
+      "notes": "Good city, people are friendly",
+      "date": "2024-07-08T15:17:34.169Z",
+      "position": {
+        "lat": "48.004625021133904",
+        "lng": "19.138183593750004"
+      }
     }
   ]
 }
