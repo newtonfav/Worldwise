@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -25,51 +13,27 @@
       "id": "17806751"
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "ae4e",
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "notes": "this is just a test",
-      "date": "2024-07-08T15:07:23.171Z",
-      "position": {
-        "lat": "52.52520370034151",
-        "lng": "13.188228607177734"
-      }
-    },
-    {
-      "id": "e8a2",
+      "id": "8076",
       "cityName": "Lagos",
       "country": "Nigeria",
       "emoji": "🇳🇬",
-      "notes": "Great place",
-      "date": "2024-07-08T15:12:23.831Z",
+      "notes": "Great city, love it.",
+      "date": "2024-07-08T16:16:11.324Z",
       "position": {
-        "lat": "6.52051287995805",
-        "lng": "3.3564949035644536"
+        "lat": "6.5418312942294765",
+        "lng": "3.346195220947266"
       }
     },
     {
-      "id": "3d61",
-      "cityName": "Patak",
-      "country": "Hungary",
-      "emoji": "🇭🇺",
-      "notes": "Good city, people are friendly",
-      "date": "2024-07-08T15:17:34.169Z",
+      "id": "043a",
+      "cityName": "Benin",
+      "country": "Nigeria",
+      "emoji": "🇳🇬",
+      "notes": "The great city of Benin.",
+      "date": "2024-07-08T16:23:23.777Z",
       "position": {
-        "lat": "48.004625021133904",
-        "lng": "19.138183593750004"
+        "lat": "6.588728599824171",
+        "lng": "3.286800384521485"
       }
     }
   ]
